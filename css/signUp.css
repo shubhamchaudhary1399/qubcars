@@ -1,0 +1,166 @@
+body{
+	background-color: #F5F5F5;
+}
+
+.navbar{
+	background-color: #FFF;
+}
+.userform{
+	max-width: 600px;
+	display: block;
+	margin: 0 auto;	
+}
+
+.form-heading{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+h2{
+	margin-bottom: 0;
+}
+
+#subheading{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.form{
+	max-width: 500px;
+	margin: auto;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.f_name{
+	width: 49%;
+	float: left;
+}
+
+.l_name{
+	width: 49%;
+	float: right;
+}
+
+
+input[type=text]{
+	box-sizing: border-box;
+    width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0 20px 0;
+	border: 1px solid #dadce0;
+}
+
+input[type=tel]{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0 20px 0;
+	border: 1px solid #dadce0;
+}
+
+input[type=email]{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0 20px 0;
+	border: 1px solid #dadce0;
+}
+
+input[type=password]{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0 20px 0;
+	border: 1px solid #dadce0;
+}
+
+input[type=checkbox]{
+	margin: 8px 0 20px 0;
+	border: 1px solid #dadce0;
+}
+
+input[type=submit]{
+	background-color: teal;
+	color: #FFF;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border: none;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0 20px 0;
+}
+
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=password]:focus {
+	outline: none !important;
+	border: 1px solid teal;
+	box-shadow: 0px 0px 4px 0px rgba(0,128,128,1);
+	transition: 0.5s ease;	
+}
+
+.red{
+	color: firebrick;
+	display: flex;
+	margin: -10px 20px 10px;
+}
+
+@media screen and (max-width: 768px){
+	.userform{
+		max-width: 500px;	
+	}
+
+	.f_name{
+		width: 50%;
+	}
+	.l_name{
+		width: 50%;
+	}
+	.form{
+		max-width: 400px;
+	}
+
+	input[type=submit]{
+	box-sizing: border-box;
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+	.userform{
+		max-width: 400px;	
+	}
+
+	.form{
+		max-width: 300px;
+	}
+
+	input[type=text]{
+		box-sizing: border-box;
+    	width: 100%;
+	}
+
+	input[type=tel]{
+		box-sizing: border-box;
+    	width: 100%;
+	}
+
+	input[type=email]{
+		box-sizing: border-box;
+    	width: 100%;
+	}
+
+	input[type=password]{
+		box-sizing: border-box;
+    	width: 100%;
+	}
+
+	input[type=submit]{
+		box-sizing: border-box;
+    	width: 100%;
+	}
+}
+

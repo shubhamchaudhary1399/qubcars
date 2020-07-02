@@ -1,0 +1,125 @@
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.login{
+	max-width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	z-index: 20;
+	background-color: #FFF;
+	border: 1px solid #dadce0;
+	border-radius: 8px;
+}
+
+.login .login-content{
+	padding: 48px 40px 38px 40px;
+	/*height: 50vh;*/
+}
+
+.logo-l{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20px;
+	text-align: center;	
+}
+
+.brand{
+	color: #00CED1;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.form-heading{
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+input[type=email]{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0 20px 0;
+	border: 1px solid #dadce0;
+}
+
+input[type=password]{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0 20px 0;
+	border: 1px solid #dadce0;
+}
+
+input[type=submit]{
+	float: right;
+	height: 30px;
+	width: 70px;
+	background-color: teal;
+	color: #FFF;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	outline: none !important;
+	border: 1px solid teal;
+	border-radius: 2px;
+}
+
+
+input[type=email]:focus, input[type=password]:focus {
+	outline: none !important;
+	border: 1px solid teal;
+	box-shadow: 0px 0px 4px 0px rgba(0,128,128,1);
+	transition: 0.5s ease;	
+}
+
+span a{
+	text-decoration: none;
+	color:teal;
+	font-size: 16px;
+	font-weight: 450; 
+}
+
+.red{
+	font-weight: 600;
+	color: firebrick;
+	display: flex;
+	font-size: 14px;
+	text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+	.logo-l{
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+
+	.login{
+		max-width: 400px;
+		height: 400px;
+		border: none;
+		margin-top: 20px;
+	}
+
+	.login .login-content{
+		padding: 10px;
+	}
+
+	.form-heading h3{
+		margin: 10px;
+    	margin-bottom: 30px;
+	}
+
+	input[type=email]{
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	input[type=password]{
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+}

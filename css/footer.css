@@ -1,0 +1,114 @@
+.footer-qub{
+	padding: 11px 20px;
+	margin: 0;
+	background: #393939;
+	color: rgba(255,255,255,0.8) !important;
+}
+
+.row-social{
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.8);
+}
+
+.title-social{
+	float: left;
+	width: 400px;
+	padding-top: 18px;
+	font-size: 16px;
+	letter-spacing: 0.3px;
+	font-weight: 400;
+}
+
+.links-social{
+	display: inline-block;
+}
+
+.tags{
+	color: rgba(255,255,255,0.8);
+	font-weight: 300;
+}
+
+.tags:hover{
+	font-weight: 300;
+	color: #00CED1;
+}
+
+.links-account{
+	display: inline-block;
+	float: right;
+}
+
+.qub-filter{
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(303deg) brightness(101%) contrast(105%) !important;
+}
+
+.brand-footer{
+	display: inline-block;
+}
+
+.details{
+	float: right;
+}
+
+.d-tag{
+	font-size: 14px;
+	color: rgba(255,255,255,0.8);
+	font-weight: 300;
+}
+
+.d-tag:hover{
+	font-weight: 300;
+	color: #00CED1;
+}
+
+.copyrights{
+	text-align: right;
+	font-weight: 200;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 1200px){
+	.title-social{
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.links-account{
+		display: block;
+		float: none;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.title-social{
+		display: block;
+		float: none;
+		max-width: 700px;
+		margin: auto;
+		text-align: center; 
+		padding-top: 0;
+		padding-bottom: 10px;
+	}
+	.links-social{
+		display: block;
+		text-align: center;
+	}
+
+	.brand-footer{
+		display: block;
+		max-width: 150px;
+		margin: auto;
+	}
+
+	.details{
+		float: none;
+		text-align: center;
+	}
+
+	.copyrights{
+		text-align: center;
+	}
+
+}

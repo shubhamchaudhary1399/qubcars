@@ -1,0 +1,483 @@
+
+.top-banner{
+	height: 100vh;
+	display: block;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	background-size: cover;
+}
+
+.f-overlay{
+	width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+#top_heading{
+	display: block;
+	text-align: center;
+	left: 0;
+	right: 0;
+	padding-top: 40px;
+	letter-spacing: 1px;
+}
+
+#top_title{
+	font-size: 38px;
+	color: #FFF;
+	font-weight: 600;
+	margin-bottom: 0;
+	padding: 0 20px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#top_subtitle{
+	font-size: 20px;
+	color: #FFF;
+	font-weight: 300px;
+	padding: 0 20px;
+	font-family: 'Raleway' , sans-serif;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.Qub-booking{
+	height: auto;
+	margin: 0 15px;
+	max-width: 400px;
+	float: right;
+	border-radius: 4px;
+}
+
+.booking-tab{
+	border-bottom: 1px solid rgba(151,151,151,0.1);
+	padding: 5px 5px;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background-color: #FFF;
+}
+
+.tab-button{
+	width: 33.33%;
+	padding: 0 11px;
+}
+
+.tab{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tab-active{
+	color: #FFF;
+	background: #00CED1;
+	border-radius: 25px;
+	transition: all 0.3s;
+	-webkit-transition:all 0.3s;
+	-moz-transform:all 0.3s;
+}
+
+.tab-active:hover{
+	color: #FFF ;
+	background: #0bafb1;
+	font-weight: 400 !important;
+}
+
+.service-info{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.section-heading{
+	padding: 15px;
+}
+
+.section-title{
+	font-size: 36px;
+	font-weight: 600;
+	display: block;
+	margin-bottom: 5px;
+	color: rgba(0, 0, 0, 0.8);
+	letter-spacing: 1px;
+	font-family: inherit;
+}
+
+.section-subtitle{
+	font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    line-height: 20px;
+}
+
+.card-list-item {
+	display: flex;
+}
+
+.card-list-item .card-holder{
+	box-sizing: border-box;
+	width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+
+.card-list-item .indiv-card{
+	background: #FBFBFC;
+	height: 100%;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.card-list-item .card-image{
+	width: 100%;
+	max-height: 200px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-list-item .info-container{
+	padding: 15px;
+}
+
+.card-list-item .heading{
+	text-transform: uppercase;
+	font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.9;
+    display: block;
+    line-height: 20px;
+}
+
+.info{
+	text-align: justify;
+	font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    line-height: 24px;
+}
+
+.container-heading{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.slideshow{
+	background: #E9E9E9;
+}
+
+.slideshow-container{
+	max-width: 1200px;
+  	position: relative;
+  	margin: auto;
+  	height: 500px;
+  	margin-bottom: 20px;
+}
+
+.slideshow-container .fade{
+	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 1.5s;
+  	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.left-content{
+	width: 60%;
+	float: left;
+}
+
+.slide-img{
+	max-width: 100%;
+    max-height: 400px;
+    position: absolute;
+    top: 10%;
+}
+
+.right-content{
+	width: 40%;
+	float: right;
+	height: 100%;
+}
+
+.right-content .heading{
+	font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.right-content .sub-title {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.wd-40{
+	position: absolute;
+    top: 20%;
+}
+
+.prev-btn{
+	outline: none;
+	position: absolute;
+    left: -50px;
+    z-index: 2;
+    cursor: pointer;
+    top: 50%;
+	border:1px solid rgba(255, 255, 255, 0);
+	height: 40px;
+	width: 40px;
+	background: url("../img/prev-arrow.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.next-btn{
+	outline: none;
+    position: absolute;
+    right: -50px;
+    font-size: 0;
+    z-index: 2;
+    cursor: pointer;
+    top: 50%;
+	border:1px solid rgba(255, 255, 255, 0);
+	height: 40px;
+	width: 40px;
+	background: url("../img/next-arrow.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.qub-features{
+	position: relative;
+	padding: 30px 0;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.features{
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.indiv-feature{
+	width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.indiv-feature img{
+	width: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.indiv-feature .feature-content{
+	margin-left: 65px;
+	margin-right: 20px;
+}
+
+.feature-content .heading{
+	font-family: 'Gentona';
+	font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 0 2px 0;
+}
+
+@media screen and (max-width: 1400px){
+	.slideshow-container{
+		max-width: 1000px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.slideshow-container{
+		max-width: 800px;
+	}
+
+	.slide-img{
+		max-height: 300px;
+	}
+	.qub-features{
+		padding: 30px 20px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){	
+
+
+	.card-list-item {
+		flex-wrap: wrap;
+	}
+
+	.card-list-item .card-holder{
+		width: 50%;
+		float: left;
+	}
+
+	#card2{
+		float: right;
+	}
+
+	.slideshow-container{
+		max-width: 650px;
+		max-height: 400px;
+	}
+
+	.slide-img{
+		max-height: 250px;
+	}
+
+	.wd-40{
+		top: 10%;
+	}
+
+}
+
+
+@media screen and (max-width: 768px){
+
+	.hide-on-xs{
+		display: none;
+	}
+
+	#top_heading{
+		padding-top: 15px;
+	}
+	
+	.Qub-booking{
+    	border-radius: 0;
+    	overflow: hidden;
+    	float: right;
+	}
+
+	.booking-tab{
+    	padding: 9px 0;
+    	z-index: 5;
+    	text-align: center;
+	}
+
+	.tab-button{
+		padding: 0 6px;
+	}
+
+	.tab{
+    	padding: 4px 8px;
+    }
+
+    .section-heading{
+		text-align: center;
+	}
+
+	.card-list-item .card-holder{
+		width: 100%;
+		float: none;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	.card-list-item .card-image{
+		max-height: 300px;
+	}
+
+	.slideshow-container{
+		max-height: none;
+	}
+
+	.slide-img{
+		position: relative;
+		display: block;
+		margin: auto;
+	}
+
+	.left-content{
+		width: 80%;
+		float: none;
+		margin: auto;
+	}
+
+	.wd-40{
+		position: relative;
+	}
+
+	.right-content{
+		width: 70%;
+		float: none;
+		margin: auto;
+	}
+
+	.prev-btn{
+		width: 30px;
+    	height: 30px;
+		left: 5px;
+	}
+
+	.next-btn{
+		width: 30px;
+    	height: 30px;
+		right: 5px;
+	}
+
+	.qub-features{
+		padding: 25px 16px;
+    }
+
+    .features{
+    	display: block;
+    }
+
+    .indiv-feature{
+    	flex-shrink: 0;
+    	width: 100%;
+    	float: none;
+    	margin-bottom: 20px;
+    	display: block;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+	#top_title{
+		font-size: 25px;
+		margin-bottom: 10px;
+    	letter-spacing: 0.3px;
+	}
+	
+	.Qub-booking{
+    	float: none;
+	}
+
+	.booking-tab{
+		float: none;
+		width: 100%;
+	}
+
+}

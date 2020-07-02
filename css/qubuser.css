@@ -1,0 +1,50 @@
+.top-banner{
+	height: 80vh;
+	background-image: url(../img/qubuser.jpg)!important;
+}
+
+.t-container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.t-row{
+	box-sizing: border-box;
+}
+
+.t-container table{
+	display: block;
+	overflow-x: auto;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-spacing: 0;
+	margin-bottom: 50px;
+}
+
+table thead{
+	background-color: #6dcecf;
+}
+
+table th{
+	text-transform: uppercase;
+}
+
+table td{
+	font-family: 'Roboto', sans-serif; 
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px){
+	th, td {
+  		padding: 5px;
+	}
+}

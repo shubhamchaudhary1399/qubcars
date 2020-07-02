@@ -1,0 +1,152 @@
+.fleet-banner{
+	height: 500px;
+	position: relative;
+	background-image: url(../img/fleet-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	background-size: cover;
+}
+
+.f-overlay{
+	width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.text-overlay{
+	width: 100%;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    bottom: 0;
+    right: 0;
+    height: 65%;
+    opacity: 0.8;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(18%, rgba(0, 0, 0, 0)), color-stop(87%, #000000)); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 18%, #000000 87%);
+    z-index: 1;
+}
+
+.banner-content{
+	position: absolute;
+	width: 100%;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.banner-content h1{
+	font-size: 46px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    color: #FFFFFF;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.banner-content label{
+	font-size: 22px;
+    font-weight: 200;
+    color: #FFFFFF;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.fleet-tab-container{
+	text-align: center;
+}
+
+.fleet-tab{
+	position: relative;
+	margin-top: -36.8px;
+	z-index: 10;
+}
+
+.f-tab{
+	cursor: pointer;
+	width: 120px;
+	padding: 10px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.9);
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.f-tab:hover{
+	background: rgba(255,255,255,0.2);
+}
+
+.f-tab-active{
+	background: #FFF !important;
+	color: #000;
+	transition: all 0.3s;
+	-webkit-transition:all 0.3s;
+	-moz-transform:all 0.3s;	
+}
+
+.fleet-content{
+	max-width:1200px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.fleet-options{
+	display: none;
+}
+
+.change{
+	display: block;
+}
+
+.fleet-options .indiv-fleet{
+	width: 100px;
+	margin-right: 15px;
+	display: inline-block;
+	text-align: center;
+}
+
+.indiv-fleet img{
+	height: 80px;
+	width: 80px;
+}
+
+.img-fleet:hover{
+	border-radius: 45%;
+	background: #00CED1;
+	transition: all 0.3s;
+	-webkit-transition:all 0.3s;
+	-moz-transform:all 0.3s;
+}
+
+.indiv-fleet label{
+	font-family: 'Railway', sans-serif;
+}
+
+
+
+
+
+@media screen and (max-width: 768px)
+{
+	.fleet-banner{
+		height: 350px;
+	}
+
+	.f-tab{
+		width: 30%;
+		padding: 10px 3px 10px 3px;
+	}
+}

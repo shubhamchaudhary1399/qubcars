@@ -1,0 +1,42 @@
+
+.s-container{
+	max-width: 1200px;
+	margin: 50px auto;
+	height: 500px;
+}
+
+.s-img{
+	max-width: 400px;
+	margin: auto;
+}
+
+#confirm{
+	display: block;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+	filter: invert(65%) sepia(64%) saturate(3145%) hue-rotate(137deg) brightness(99%) contrast(101%);
+}
+
+.s-jumbotron{
+	margin-top: 20px;
+	background: #E9E9E9;
+	padding: 30px 0;
+	border-radius: 5px;
+
+}
+
+.heading{
+	margin: 10px 50px;
+	border-bottom: 1px solid #FFF;
+
+}
+
+p{
+	font-size: 18px;
+}
+
+p a{
+	text-decoration: none;
+	color: #00CED1;
+}
