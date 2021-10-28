@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/SignUp.css">
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
 </head>
 <body>
 	<?php include 'includes/navbar.php'; ?>
