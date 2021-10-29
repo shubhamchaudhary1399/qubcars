@@ -2,6 +2,14 @@
 
 Qubcars Online Cab booking website
 
+## Description
+
+This project was mainly focused on its impressive design with use of pure CSS. Front end technologies were HTML, CSS, JavaScript. Back end technologies were PHP & MySQL. Learnt about the pure CSS very much and gained confidence to begin any website from scratch.
+
+## Deployment
+
+- This project is already deployed on the link (https://qubcars.herokuapp.com/)
+
 ## Getting Started
 
 Clone the repository into you machine:
