@@ -35,3 +35,14 @@ Open up your browser and go to (http://localhost:QubCars/index.php)
 ## Authors
 
 - **Shubham Chaudhary** - _Initial work_ - [shubhamchaudhary1399](https://github.com/shubhamchaudhary1399)
+
+## Website Screenshots as hosting is not working now
+<img width="2048" height="5594" alt="HomePage" src="https://github.com/user-attachments/assets/1f16dda6-c31a-451e-bd97-e9949cb27798" />
+
+<img width="2048" height="1818" alt="qubFleetPage" src="https://github.com/user-attachments/assets/9bae0258-c60f-4e2d-ba04-1ba99291f77c" />
+
+<img width="2048" height="1818" alt="bookNow" src="https://github.com/user-attachments/assets/1c27bf11-9ec3-4eb2-93de-efaccd9548cf" />
+
+<img width="850" height="1818" alt="LoginPage" src="https://github.com/user-attachments/assets/bb99f7a3-a032-4b96-84ce-6fb1617d0a54" />
+
+<img width="850" height="1818" alt="MobileResponsive" src="https://github.com/user-attachments/assets/cf1845af-0330-4999-a532-3fe38c5e9e66" />
